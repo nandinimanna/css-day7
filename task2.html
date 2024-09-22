@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            height: 70vh;
+            width: 80vw;
+            margin: 10px;
+            display: grid;
+            grid-template-columns: auto  auto auto auto;
+            background-color: blue;
+            position: relative;
+            
+            
+        }
+        .body{
+            background-color: blue;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        div{
+            border: px solid;
+            gap: 5px;
+            background-color: white;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+        }
+        .items1{
+            grid-row: 1/3;
+            align-items: center;
+        }
+        .items3{
+            grid-column: 3/5;
+        }
+        .items5{
+            grid-row: 2/4;
+            grid-column: 3/4;
+        }
+        .items8{
+            grid-column: 2/3;
+            grid-row: 3/5;
+        }
+        .items11{
+            grid-column: 3/5;
+        }
+
+    </style>
+</head>
+<body style="background-color: blue;">
+    <center>
+    <div class="container">
+        <div class="items1">Masonary 1</div>
+        <div class="items2">Responsive</div>
+        <div class="items3">Overlap</div>
+        <div class="items4">Fulid</div>
+        <div class="items5">Explicity place</div>
+        <div class="items6">Neagative space</div>
+        <div class="items7">Flexible Breath</div>
+        <div class="items8">Masonary 2</div>
+        <div class="items9">Masonary 3</div>
+        <div class="items10">Dom order</div>
+        <div class="items11">Name Track</div>
+        </center>
+    </div>
+</body>
+</html>
